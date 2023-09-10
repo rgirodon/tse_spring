@@ -20,6 +20,8 @@ public class Zoo {
 
 	@Override
 	public String toString() {
-		return "Zoo [bird=" + bird + ", canine=" + canine + ", feline=" + feline + "]";
+		return "Zoo [bird=" + this.bird 
+						+ ", canine=" + this.canine 
+						+ ", feline=" + this.feline + "]";
 	}
 }
