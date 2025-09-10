@@ -20,6 +20,6 @@ public class ZooTest {
 		
 		Assertions.assertTrue(zoo.toString().contains("Cat instance"));
 		
-		Assertions.assertTrue(zoo.toString().contains("Owl instance"));
+		Assertions.assertTrue(zoo.toString().contains("Perrot instance"));
 	}
 }

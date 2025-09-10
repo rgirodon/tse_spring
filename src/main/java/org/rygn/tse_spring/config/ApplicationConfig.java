@@ -1,6 +1,6 @@
 package org.rygn.tse_spring.config;
 
-import org.rygn.tse_spring.components.Owl;
+import org.rygn.tse_spring.components.Perrot;
 import org.rygn.tse_spring.interfaces.Bird;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -13,6 +13,6 @@ public class ApplicationConfig {
 	@Bean
 	public Bird bird() {
 		
-		return new Owl();
+		return new Perrot();
 	}
 }
