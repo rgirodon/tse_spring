@@ -16,7 +16,7 @@ public class ZooTest {
 	@Test
 	public void testToString() {
 		
-		Assertions.assertTrue(zoo.toString().contains("Dog instance"));
+		Assertions.assertTrue(zoo.toString().contains("Wolf instance"));
 		
 		Assertions.assertTrue(zoo.toString().contains("Cat instance"));
 		
